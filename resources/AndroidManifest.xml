@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:versionCode="1" android:versionName="1.0" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="com.example.emailauthapp" platformBuildVersionCode="31" platformBuildVersionName="12">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="31"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:theme="@style/Theme.EmailAuthApp" android:label="@string/app_name" android:icon="@drawable/logo" android:debuggable="true" android:testOnly="true" android:allowBackup="true" android:supportsRtl="true" android:roundIcon="@mipmap/ic_launcher_round" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <activity android:name="com.example.emailauthapp.che226"/>
+        <activity android:name="com.example.emailauthapp.mod146"/>
+        <activity android:name="com.example.emailauthapp.mod255"/>
+        <activity android:name="com.example.emailauthapp.mod254"/>
+        <activity android:name="com.example.emailauthapp.mod253"/>
+        <activity android:name="com.example.emailauthapp.mod252"/>
+        <activity android:name="com.example.emailauthapp.mod251"/>
+        <activity android:name="com.example.emailauthapp.mod245"/>
+        <activity android:name="com.example.emailauthapp.mod244"/>
+        <activity android:name="com.example.emailauthapp.mod243"/>
+        <activity android:name="com.example.emailauthapp.mod242"/>
+        <activity android:name="com.example.emailauthapp.mod241"/>
+        <activity android:name="com.example.emailauthapp.mod235"/>
+        <activity android:name="com.example.emailauthapp.mod234"/>
+        <activity android:name="com.example.emailauthapp.mod233"/>
+        <activity android:name="com.example.emailauthapp.mod232"/>
+        <activity android:name="com.example.emailauthapp.mod231"/>
+        <activity android:name="com.example.emailauthapp.mod225"/>
+        <activity android:name="com.example.emailauthapp.mod224"/>
+        <activity android:name="com.example.emailauthapp.mod223"/>
+        <activity android:name="com.example.emailauthapp.mod222"/>
+        <activity android:name="com.example.emailauthapp.mod221"/>
+        <activity android:name="com.example.emailauthapp.mod215"/>
+        <activity android:name="com.example.emailauthapp.mod214"/>
+        <activity android:name="com.example.emailauthapp.mod213"/>
+        <activity android:name="com.example.emailauthapp.mod212"/>
+        <activity android:name="com.example.emailauthapp.mod211"/>
+        <activity android:name="com.example.emailauthapp.mod25"/>
+        <activity android:name="com.example.emailauthapp.mod24"/>
+        <activity android:name="com.example.emailauthapp.mod23"/>
+        <activity android:name="com.example.emailauthapp.mod22"/>
+        <activity android:name="com.example.emailauthapp.mod21"/>
+        <activity android:name="com.example.emailauthapp.mod155"/>
+        <activity android:name="com.example.emailauthapp.mod154"/>
+        <activity android:name="com.example.emailauthapp.mod153"/>
+        <activity android:name="com.example.emailauthapp.mod152"/>
+        <activity android:name="com.example.emailauthapp.mod151"/>
+        <activity android:name="com.example.emailauthapp.mod145"/>
+        <activity android:name="com.example.emailauthapp.mod144"/>
+        <activity android:name="com.example.emailauthapp.mod143"/>
+        <activity android:name="com.example.emailauthapp.mod142"/>
+        <activity android:name="com.example.emailauthapp.mod141"/>
+        <activity android:name="com.example.emailauthapp.mod135"/>
+        <activity android:name="com.example.emailauthapp.mod134"/>
+        <activity android:name="com.example.emailauthapp.mod133"/>
+        <activity android:name="com.example.emailauthapp.mod132"/>
+        <activity android:name="com.example.emailauthapp.mod131"/>
+        <activity android:name="com.example.emailauthapp.mod125"/>
+        <activity android:name="com.example.emailauthapp.mod124"/>
+        <activity android:name="com.example.emailauthapp.mod123"/>
+        <activity android:name="com.example.emailauthapp.mod122"/>
+        <activity android:name="com.example.emailauthapp.mod121"/>
+        <activity android:name="com.example.emailauthapp.mod115"/>
+        <activity android:name="com.example.emailauthapp.mod114"/>
+        <activity android:name="com.example.emailauthapp.mod113"/>
+        <activity android:name="com.example.emailauthapp.mod112"/>
+        <activity android:name="com.example.emailauthapp.mod111"/>
+        <activity android:name="com.example.emailauthapp.mod5"/>
+        <activity android:name="com.example.emailauthapp.mod4"/>
+        <activity android:name="com.example.emailauthapp.mod3"/>
+        <activity android:name="com.example.emailauthapp.mod2"/>
+        <activity android:name="com.example.emailauthapp.mod"/>
+        <activity android:name="com.example.emailauthapp.sem2"/>
+        <activity android:name="com.example.emailauthapp.sem1"/>
+        <activity android:name="com.example.emailauthapp.Sem"/>
+        <activity android:name="com.example.emailauthapp.Reset"/>
+        <activity android:name="com.example.emailauthapp.Register"/>
+        <activity android:name="com.example.emailauthapp.Login" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.emailauthapp.MainActivity"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.firebase.auth.internal.GenericIdpActivity" android:exported="true" android:excludeFromRecents="true" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="genericidp" android:host="firebase.auth" android:path="/"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.firebase.auth.internal.RecaptchaActivity" android:exported="true" android:excludeFromRecents="true" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="recaptcha" android:host="firebase.auth" android:path="/"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.auth.api.gms.service.START"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false" android:directBootAware="true">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.example.emailauthapp.firebaseinitprovider" android:initOrder="100" android:directBootAware="true"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    </application>
+</manifest>
